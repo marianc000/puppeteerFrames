@@ -11,7 +11,9 @@ await page.goto("https://puppeteerframes.onrender.com/1/index.html", { waitUntil
 //await page.goto("http://192.168.0.24:5500/1/index.html");
 //await page.click("#editBtn");
 await page.screenshot({ path: '0.png' });
-await page.evaluate(() => editBtn.click());
-await page.evaluate(() => saveBtn.click());
-await page.screenshot({ path: '1.png' });
+ await page.evaluate(() => editBtn.click());
+// await page.click("#editBtn"); 
+// await page.click("#saveBtn");
+ await page.evaluate(() => saveBtn.click());
+await page.screenshot({ path: '2.png' });
 await browser.close();
