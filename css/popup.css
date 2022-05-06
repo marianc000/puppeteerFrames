@@ -1,0 +1,16 @@
+#popupDiv {
+    display: none;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    display: block;
+    width: 45em;margin-bottom: 0.5em;
+}
