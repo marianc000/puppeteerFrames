@@ -7,7 +7,7 @@ async function editView() {
     rootDiv.innerHTML = html;
     requestAnimationFrame(() => {
         textArea.style.height = textArea.scrollHeight + "px";
-        saveBtn.addEventListener("click", () => console.log(">save"));
+        requestAnimationFrame(() => saveBtn.addEventListener("click", () => console.log(">save")));
     });
 
 }
