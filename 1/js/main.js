@@ -8,4 +8,4 @@ async function editView(){
     requestAnimationFrame(()=>textArea.style.height=textArea.scrollHeight + "px");
 }
 
- 
+saveBtn.addEventListener("click", ()=>console.log(">save"));
